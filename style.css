@@ -1069,7 +1069,11 @@ footer {
         outline: none !important;
         text-decoration: none;
     }
-    
+    header,
+    .logo,
+    .logo img {
+        transition: none !important;
+    }
     .right-container {
         display: none !important; /* Force hide on mobile load */
         flex-direction: column !important;

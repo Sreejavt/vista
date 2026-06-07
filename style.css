@@ -596,16 +596,17 @@ img[alt="shopify-logo"] {
    padding:32px;
    box-shadow: 4px 4px 4px rgba(29, 29, 31, 0.5);
 }
-.rating-stars {
+.rating-stars{
     display: flex;
     gap: 5px;
     padding:20px 0;
     margin-bottom: 20px;
     color: #967BB6; /* Your lavender color */
-    font-size: 14px;
     margin: 0 auto;
 }
-
+.rating-stars svg{
+   fill: #967BB6;
+}
 .testimonial-quote {
     line-height: 1.8; 
     margin-bottom: 25px;

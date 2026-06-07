@@ -687,7 +687,7 @@ img[alt="shopify-logo"] {
     width: 100%;
 }
 
-img[src*="most-popular.png"] {
+img[src*="most-popular.webp"] {
     position: absolute;
     /* Negative values pull it past the padding to the real corner */
     top: -14px; 
